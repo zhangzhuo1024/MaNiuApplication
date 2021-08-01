@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaNiuApplication">
+        <activity android:name=".architect.opensourceframework.glide.GlideActivity"></activity>
+        <activity android:name=".architect.opensourceframework.OpenSourceActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
